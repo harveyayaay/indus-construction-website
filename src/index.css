@@ -1,0 +1,33 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .prev-btn {
+  color: #fff;
+  background: #facb30 !important;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  top: 40%;
+  left: -5%;
+
+  position: absolute;
+} */
+
+.swiper-button-prev {
+  color: #facb30 !important;
+}
+.swiper-button-next {
+  color: #facb30 !important;
+}
+/* .swiper-button-disabled {
+  color: green !important;
+} */
+.swiper-pagination-bullet {
+  margin-top: 30px !important;
+}
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #facb30 !important;
+}
